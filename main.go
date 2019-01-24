@@ -17,11 +17,11 @@ func init() {
 	log.SetOutput(os.Stdout)
 }
 
-func getArgs() {
+//func getArgs() {
 	//	argsWithProg := os.Args
 	//	argsWithoutProg := os.Args[1:]
-	destUrl := os.Args(1)
-}
+//	destUrl := os.Args(1)
+//}
 
 func findProxy( proto string) {
     switch proto {
